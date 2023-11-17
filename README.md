@@ -1,16 +1,14 @@
 # flutter_app_marbles
-
-A new Flutter application.
-
+This Flutter code represents a simple Bluetooth chat application. 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application allows users to connect to a Bluetooth device, send and receive messages, and disconnect from the device. It uses the QuickBlue package for Bluetooth functionality and demonstrates common Flutter patterns, such as navigation and asynchronous programming.
 
-A few resources to get you started if this is your first Flutter project:
+How much Points I am able to implememt - 
+1) The provided code does not explicitly contain separate UI implementations for mobile and Windows PC. It appears to be a Flutter application designed to run on a mobile platform. The UI components and layout are optimized for mobile devices, utilizing standard Flutter widgets like Scaffold, AppBar, ListView, and TextField.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2) The provided Flutter code is designed to create a Bluetooth chat application where two devices, such as a mobile device and a laptop, can connect to each other over Bluetooth.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3) The provided Flutter code uses the QuickBlue package to handle Bluetooth functionality for connecting two devices and enabling chat between them.
+
+4) The provided code does not use polling for receiving chat messages between devices. Instead, it utilizes event-driven programming with listeners to handle incoming data.
